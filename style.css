@@ -1,10 +1,19 @@
 .elem{
     width: 50px;
     height: 50px;
-    border: 2px black solid;
+    border: 1px black solid;
+    border-radius: 5px;
+    text-align: center;
+    cursor: grab;
+    
 }
-.pElem{
-   width: 50%;
-   height: 50%;
-   margin: 32%;
+
+.elem:hover{
+    background-color: beige;
+}
+.jatekter{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+    margin: 0;
 }
